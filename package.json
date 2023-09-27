@@ -1,0 +1,14 @@
+{
+  "dependencies": { "gun": "^0.2020.1239" },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "bun-types": "latest"
+  },
+  "name": "qshare",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "cipher" : "'32.9.72 - hsabta eb lliw eno txen eht ,srehpihc ym lla sgnitteg yrt llew ,uoy tnod srehpic ekil ,iH'"
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>🍭 Qshare</title>
+</head>
+<body class="bg-black overflow-hidden">
+    <header class="w-screen p-6 font-Oxygen font-bold border-b border-teal-400 text-white text-4xl" >
+        Qshare
+    </header>
+    <div id="main" class="text-white w-screen h-screen flex row-auto">
+        <div class="w-1/2 h-screen border-r border-white flex justify-center items-center flex-col gap-4">
+            <h1 class="text-white text-4xl underline bold">Upload a File</h1>
+            <input type="text" id="file-upload-file" placeholder="Enter a unique id for your file" class="w-1/2 p-2 text-black focus-within:outline-none rounded-lg border-2 border-teal-400">
+            <input type="file" id="file-upload" class="text-sm text-grey-500 file:mr-5 file:py-2 file:px-6 file:rounded-full file:border-0 file:text-sm file:font-medium file:bg-blue-50 file:text-teal-400 hover:file:cursor-pointer">
+            <button id="file-upload" class="w-1/2 bg-white text-black text-lg rounded-3xl border-2 border-teal-400 pt-2 pb-2 pr-16 pl-16">Submit</button>
+        </div>
+        <div class="w-1/2 h-screen border-r border-white flex justify-center items-center flex-col gap-4">
+            <h1 class="text-white text-4xl underline bold">Download a File</h1>
+            <input type="text" id="file-download" placeholder="Enter a unique id for your file" class="w-1/2 p-2 text-black focus-within:outline-none rounded-lg border-2 border-teal-400">
+            <button id="file-download" class="w-1/2 bg-white text-black text-lg rounded-3xl border-2 border-teal-400 pt-2 pb-2 pr-16 pl-16">Submit</button>
+
+        </div>
+    </div>
+    <script src="./dist/main.js" type="module" defer></script>
+</body>
+</html>
